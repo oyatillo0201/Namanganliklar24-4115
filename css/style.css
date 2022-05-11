@@ -181,10 +181,13 @@ img {
   border-bottom: 1px solid #d1d1d1;
   padding-bottom: 12px;
   padding-top: 12px;
-  margin-bottom: 40px;
   font-size: 18px;
   font-weight: 500;
   line-height: normal;
+}
+
+.site-nav:not(:last-child) {
+  margin-bottom: 40px;
 }
 
 .sitenav-list {
@@ -543,6 +546,11 @@ img {
   outline: 2px dashed #fff;
 }
 
+.site-footer-container {
+ padding-left: 125px;
+ padding-right: 125px;
+}
+
 .site-footer-logo-wrapper {
   display: flex;
   margin-bottom: 15px;
@@ -654,18 +662,8 @@ img {
 .article {
   width: 797px;
   margin-right: 10px;
+}
 
-}
-.article-card-horizontal-footer {
-}
-.article-card-horizontal-source-icon {
-}
-.article-card-horizontal-source-time {
-}
-.article-card-horizontal-source {
-}
-.article-heading {
-}
 .article-img {
   margin-bottom: 25px;
 }
@@ -746,4 +744,107 @@ img {
   font-size: 16px;
   line-height: 22px;
   color: #4A4B4C;
+}
+
+/* CONTACT-PAGE */
+/* FORM */
+.form-groups-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-groups-wrapper:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.form-group:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.form-groups-wrapper .form-group {
+  width: calc(50% - 5px);
+  margin-bottom: 0;
+}
+
+.form-field {
+  display: block;
+  width: 100%;
+  padding: 18px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.form-field-textarea {
+  min-height: 180px;
+  resize: vertical;
+}
+
+/* DEFINITIONS-CARD */
+.definitions-card {
+  padding: 20px 25px;
+  border-radius: 10px;
+  margin: 0;
+  background-color: #f6f6f6;
+  color: #000;
+}
+
+.definitions-card-item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.definitions-card-item:not(:last-child) {
+  border-bottom: 1px solid #d2d2d2;
+}
+
+.definitions-card-title {
+  margin-bottom: 7px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.definitions-card-value {
+  margin: 0;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.definitions-card-link {
+  text-decoration: none;
+  color:#000;
+}
+
+.definitions-card-link:hover {
+  color: blue;
+}
+
+/* CONTACT-PAGE */
+.contact-page-heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 500;
+  color: #000;
+}
+
+.contact-page-content {
+  display: flex;
+}
+
+.contact-page-form {
+  display: flex;
+  flex-direction: column;
+  width: 696px;
+}
+
+.contact-page-form-sumbit {
+  align-self:flex-end;
+  margin-top: 20px;
+}
+
+.contact-page-info {
+  width: 494px;
+  margin-left: 10px;
 }

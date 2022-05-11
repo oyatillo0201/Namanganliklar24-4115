@@ -147,6 +147,10 @@ img {
   border-radius: 60px;
   font-size: 14px;
   line-height: normal;
+  background-image: url(../img/icon-search.svg);
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  background-size: 20px;
 }
 
 
@@ -323,6 +327,10 @@ img {
   margin: 60px 75px;
   border-radius: 10px;
   background-color: #ffd7ba;
+  background-image: url(../img/global-notifications-bg.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center center;
 }
 
 .notification-cta-text {
@@ -445,6 +453,11 @@ img {
 .layout-2-1-sidebar {
   margin-top: 49px;
   width: 393px;
+}
+
+.layout-2-1-sidebar-item {
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .layout-2-1-sidebar-item:not(:last-child) {
@@ -847,4 +860,18 @@ img {
 .contact-page-info {
   width: 494px;
   margin-left: 10px;
+}
+
+
+/* RETINA BG */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+  .notification-cta {
+    background-image:url(../img/global-notifications-bg@2x.jpg);
+  }
 }

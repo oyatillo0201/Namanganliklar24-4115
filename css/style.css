@@ -874,4 +874,5 @@ only screen and (                min-resolution: 2dppx) {
   .notification-cta {
     background-image:url(../img/global-notifications-bg@2x.jpg);
   }
+
 }
